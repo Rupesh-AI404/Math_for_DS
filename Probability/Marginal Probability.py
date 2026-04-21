@@ -3,7 +3,7 @@
 # Marginal probability = The chance of something happening by itself, ignoring everything else.
 
 
-total   = 2000
+total   = 1000
 spam    = 200
 
 P_spam  = spam / total
