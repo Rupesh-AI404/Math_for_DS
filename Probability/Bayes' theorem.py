@@ -2,7 +2,7 @@
 # Real example from the book: cancer + coffee study
 
 P_coffee               = 0.65   # 65% of people drink coffee
-P_cancer               = 0.05  # 0.5% have cancer
+P_cancer               = 0.005  # 0.5% have cancer
 P_coffee_given_cancer  = 0.85   # 85% of cancer patients drink coffee
 
 # Question: P(cancer | drinks coffee) = ?
