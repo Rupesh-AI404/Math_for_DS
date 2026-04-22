@@ -21,4 +21,4 @@ print(slope_at_2)  # 20 ← function rising steeply at x=2
 def approx_derivative(f_fn, x_val, step=1e-5):
     return (f_fn(x_val + step) - f_fn(x_val)) / step
 
-print(approx_derivative(lambda x: 5*x**2, 2))  # ≈ 20.00001
+print(approx_derivative(lambda x: 5 * x ** 2, 2))  # ≈ 20.00001
