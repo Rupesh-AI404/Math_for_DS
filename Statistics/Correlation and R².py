@@ -17,6 +17,7 @@ print(f"R-squared  : {r2:.4f}")                    # ~0.9996
 r_spear, p_spear = stats.spearmanr(y_true, y_pred)
 print(f"Spearman r : {r_spear:.4f}")               # ~0.9998
 
+
 # Interpretation:
 # R² = 0.80 means model explains 80% of variance — 20% is unexplained noise
 # R² < 0    means model is literally worse than just predicting the mean
