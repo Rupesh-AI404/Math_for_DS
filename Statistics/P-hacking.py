@@ -26,5 +26,3 @@ print(f"False positive rate: {false_discoveries/n_features:.1%}")
 # Fix: Bonferroni correction — divide threshold by number of tests
 corrected_threshold = 0.05 / n_features   # 0.0005
 print(f"\nCorrected threshold: {corrected_threshold}")
-print(f"False positive rate: {false_discoveries/n_features:.1%}")
-print(f"False discovery rate: {false_discoveries/n_samples:.1%}")
