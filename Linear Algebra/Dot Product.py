@@ -15,3 +15,4 @@ W = np.array([[0.5, 0.3, 0.2],
 layer_output = W @ features        # @ is matrix multiply in numpy
 print(layer_output)
 
+

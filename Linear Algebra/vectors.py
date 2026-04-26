@@ -11,3 +11,4 @@ X = np.array([
     [22, 38000, 1],
 ])
 print(X.shape)  # (3, 3) → 3 samples, 3 features
+print(X[0])
