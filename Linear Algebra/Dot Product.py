@@ -13,4 +13,5 @@ W = np.array([[0.5, 0.3, 0.2],
               [0.1, 0.8, 0.4]])   # 2 neurons, 3 inputs each
 
 layer_output = W @ features        # @ is matrix multiply in numpy
-print(layer_output)                # [140.0, 140.0] — output of 2 neurons
+print(layer_output)
+
