@@ -24,3 +24,4 @@ print(f"P(-1.96 < x < 1.96) = {prob:.3f}")   # 0.950
 # scipy handles this under the hood in all distribution methods
 mean, var = norm.stats(moments='mv')
 print(f"Standard normal: mean={mean}, variance={var}")  # 0, 1
+print(f"E[X] = {mean:.3f}")
