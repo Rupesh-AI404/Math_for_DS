@@ -21,4 +21,5 @@ eps = 1e-9   # prevent log(0)
 ce = -np.mean(y_true_cls * np.log(y_pred_prob + eps) +
               (1 - y_true_cls) * np.log(1 - y_pred_prob + eps))
 print(f"Cross-entropy: {ce:.4f}")  # 0.1643
+print(f"Cross-entropy (backprop): {ce * -1:.4f}")
 # sklearn uses this automatically for LogisticRegression
