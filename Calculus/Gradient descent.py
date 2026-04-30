@@ -8,7 +8,7 @@ def df(x):   return 2*(x - 3)   # derivative
 
 x = 0.0           # start anywhere
 lr = 0.1          # learning rate — step size fraction
-epochs = 50
+epochs = 60
 
 for i in range(epochs):
     slope = df(x)       # how steep here?
