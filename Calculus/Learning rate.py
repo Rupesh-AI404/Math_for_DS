@@ -23,3 +23,4 @@ print("\nIn practice, use a scheduler to adjust learning rate during training:")
 for epoch in range(1, 11):
     lr = 0.01 / np.sqrt(epoch)  # example of inverse scaling
     print(f"Epoch {epoch:2d}: learning rate = {lr:.4f}")
+
