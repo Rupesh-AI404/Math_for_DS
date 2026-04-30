@@ -18,3 +18,8 @@ for lr, label in [(0.01, "too small"), (0.1, "just right"), (0.99, "too large")]
 from sklearn.linear_model import SGDRegressor
 model = SGDRegressor(learning_rate='invscaling', eta0=0.01)
 # sklearn handles lr scheduling for you
+
+print("\nIn practice, use a scheduler to adjust learning rate during training:")
+for epoch in range(1, 11):
+    lr = 0.01 / np.sqrt(epoch)  # example of inverse scaling
+    print(f"Epoch {epoch:2d}: learning rate = {lr:.4f}")
