@@ -16,4 +16,5 @@ print("df/dy =", df_dy)   # 2x + 3y²
 # At point (x=1, y=2):
 print("Slope in x direction:", df_dx.subs([(x,1),(y,2)]))  # 10
 print("Slope in y direction:", df_dy.subs([(x,1),(y,2)]))  # 14
+print("Loss at (1,2):", f.subs([(x,1),(y,2)]))
 # → x needs a bigger nudge than y to reduce loss at this point
