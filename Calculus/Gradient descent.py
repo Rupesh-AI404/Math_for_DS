@@ -17,6 +17,7 @@ for i in range(epochs):
         print(f"Step {i:3d}: x={x:.4f}, f(x)={f(x):.4f}")
 
 print(f"\nFound minimum: x={x:.4f}, f(x)={f(x):.4f}")
+print(f"lr={lr:.3f}, epochs={epochs}")
 # x converges to 3.0, f(x) converges to 4.0
 
 # Step   0: x=0.6000, f(x)=9.9600
