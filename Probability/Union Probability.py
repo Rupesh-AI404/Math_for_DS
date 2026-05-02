@@ -11,4 +11,5 @@ print(f"Wrong: {wrong}")   # 0.30
 correct = P_spam + P_free - P_spam_and_free
 print(f"Correct P(spam OR free) = {correct}")  # 0.22
 print(f"Correct P(spam AND free) = {P_spam_and_free}")
+print(f"Actual P(spam OR free) = {P_spam + P_free}")
 # The formula: P(A OR B) = P(A) + P(B) - P(A AND B)
