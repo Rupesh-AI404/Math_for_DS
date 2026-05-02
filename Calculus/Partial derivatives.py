@@ -19,4 +19,5 @@ print("Slope in y direction:", df_dy.subs([(x,1),(y,2)]))  # 14
 print("Loss at (1,2):", f.subs([(x,1),(y,2)]))
 print("Loss at (1.1,2):", f.subs([(x,1.1),(y,2)]))
 print("Loss at (1,2.1):", f.subs([(x,1),(y,2.1)]))
+print("Loss at (1.1,2.1):", f.subs([(x,1.1),(y,2.1)]))
 # → x needs a bigger nudge than y to reduce loss at this point
