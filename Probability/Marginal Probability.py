@@ -12,3 +12,4 @@ print(f"P(not spam) = {1 - P_spam}")  # 0.8  → always sums to 1.0
 print(f"Odds(spam)  = {P_spam / (1 - P_spam):.2f}")  # 0.25 → 1:4 odds of spam vs not spam
 print(f"E(spam)     = {spam / total:.2f}")
 print(f"Var(spam)   = {(spam / total) * (1 - P_spam) / total:.2f}")
+print(f"Std dev(spam) = {P_spam * (1 - P_spam) ** 0.5:.2f}")
