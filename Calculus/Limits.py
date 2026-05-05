@@ -20,3 +20,4 @@ for h in [1.0, 0.1, 0.01, 0.001, 0.0001, 0.00001]:
 # This is what sympy.diff() computes symbolically — the limit at h→0
 
 print(np.diff(f, x_val))
+
