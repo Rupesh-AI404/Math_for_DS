@@ -20,6 +20,5 @@ for h in [1.0, 0.1, 0.01, 0.001, 0.0001, 0.00001]:
 # This is what sympy.diff() computes symbolically — the limit at h→0
 
 print(np.diff(f, x_val))
-print(np.diff(f, x_val, n=2))  # second derivative (should be 2 everywhere)
-print(np.diff(f, y_val=0))  # partial derivative w.r.t. y (should be 0 everywhere)
+
 
