@@ -18,3 +18,4 @@ print(X[3])
 print(X[2])
 print(X[0][0])  # age of first customer
 print(X[1][1])  # income of second customer
+print(X[2][2])  # purchases of third customer
