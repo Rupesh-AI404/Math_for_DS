@@ -22,3 +22,4 @@ print(X[2][2])  # purchases of third customer
 print(X[0][2])
 print(X[2][0])
 print(X[:, 0])
+print(X[:, 1])
