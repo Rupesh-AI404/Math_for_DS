@@ -24,3 +24,4 @@ print(X[2][0])
 print(X[:, 0])
 print(X[:, 1])
 print(X[:, 2])
+print
