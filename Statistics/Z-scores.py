@@ -21,3 +21,5 @@ X_scaled = scaler.fit_transform(X)
 print("Scaled shape:", X_scaled.shape)  # (5, 2) — both features now balanced
 print("Scaled age   :", X_scaled[:, 0])
 print("Scaled salary:", X_scaled[:, 1])
+print("Scaled mean  :", scaler.mean_)
+print("Scaled std   :", scaler.scale_)
