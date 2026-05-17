@@ -23,4 +23,5 @@ print("Scaled age   :", X_scaled[:, 0])
 print("Scaled salary:", X_scaled[:, 1])
 print("Scaled mean  :", scaler.mean_)
 print("Scaled std   :", scaler.scale_)
+print("Scaled var   :", scaler.var_)
 
