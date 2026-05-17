@@ -25,3 +25,4 @@ print("Scaled mean  :", scaler.mean_)
 print("Scaled std   :", scaler.scale_)
 print("Scaled var   :", scaler.var_)
 
+
